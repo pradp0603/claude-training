@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: proposes-due-dates
+expected_outcome: |
+  A new ADR-002 with status Proposed covering an optional dueDate field on tasks, overdue highlighting, and consequences such as test/sample-data updates and handling of old saved tasks without the field.

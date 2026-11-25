@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: flags-conflict-with-adr-001
+expected_outcome: |
+  The response points out up front that adding Jest as an npm dependency conflicts with ADR-001's no-dependency rule. It writes ADR-002 as Proposed, with a status noting it supersedes ADR-001 (or the relevant part) once accepted and a Context explaining why the constraint is being relaxed. ADR-001 is left unchanged, and the response says it will be marked superseded only after the user confirms.

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: asks-for-missing-reason
+expected_outcome: |
+  With ADR-001 and ADR-002 already present, the user asks for an ADR about storing the filter in the URL hash but gives no reason. Claude writes ADR-003 in the house format, does not present an invented motivation as fact (the reason is left marked as to be confirmed), asks the user why the change is being made, and leaves ADR-001 and ADR-002 untouched.
+context:
+  scaffold_script: place-files.sh

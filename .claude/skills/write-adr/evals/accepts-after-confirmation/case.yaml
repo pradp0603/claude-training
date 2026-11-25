@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: accepts-after-confirmation
+expected_outcome: |
+  Starting from a Proposed ADR-002 (Jest) that supersedes part of ADR-001 once accepted, the user confirms. ADR-002's status becomes Accepted with a supersedes note. Only ADR-001's status line changes, to Superseded or Partly superseded by ADR-002; the rest of ADR-001 and ADR-002's body are unchanged. No new ADR file is created.
+context:
+  scaffold_script: place-files.sh
